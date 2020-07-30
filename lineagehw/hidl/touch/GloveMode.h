@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ namespace vendor {
 namespace lineage {
 namespace touch {
 namespace V1_0 {
-namespace kirin970 {
+namespace hi6250 {
 
 using ::android::hardware::hidl_array;
 using ::android::hardware::hidl_memory;
@@ -44,7 +44,7 @@ class GloveMode : public IGloveMode {
     Return<bool> setEnabled(bool enabled) override;
 };
 
-}  // namespace kirin970
+}  // namespace hi6250
 }  // namespace V1_0
 }  // namespace touch
 }  // namespace lineage
