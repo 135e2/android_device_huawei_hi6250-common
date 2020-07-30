@@ -55,7 +55,7 @@ public class HwGsmCdmaPhone extends GsmCdmaPhone {
                     try {
                         int ussdMode = Integer.parseInt(ussdResult[0]);
                         if (ussdMode == CommandsInterface.USSD_MODE_NW_RELEASE) {
-                            ussdMode = CommandsInterface.USSD_MODE_NOTIFY;
+                            ussdMode = CommandsInterface.USSD_MODE_REQUEST;
                         }
                         ussdResult[0] = String.valueOf(ussdMode);
                         ar.result = ussdResult;
