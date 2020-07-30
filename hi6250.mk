@@ -87,6 +87,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     resize2fs_static
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    device/huawei/hi6250-common
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
