@@ -41,7 +41,7 @@ public class HwRadioIndication extends RadioIndication {
         if (mHwRil != null) {
             mHwRil.processInd(indicationType);
 
-            SignalStrength ss = HwRIL.convertHalSignalStrength(signalStrength, mHwRil);
+            SignalStrength ss = HwRIL.convertHalSignalStrength(signalStrength);
             // Note this is set to "verbose" because it happens frequently
             // This is always false, so just comment it out
             //if (RIL.RILJ_LOGV) mHwRil.unsljLogvRet(RIL_UNSOL_SIGNAL_STRENGTH, ss);
