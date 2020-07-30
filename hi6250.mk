@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/fingerprint.kl:system/usr/keylayout/fingerprint.kl
 
+# Kernel
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/kernel/dummykernel:kernel
+
 # LineageHw
 PRODUCT_PACKAGES += \
     lineage.touch@1.0-service.hi6250
