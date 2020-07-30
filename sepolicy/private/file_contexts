@@ -27,10 +27,14 @@
 
 # Rootfs
 /cust(/.*)?            u:object_r:system_file:s0
+/dsp                   u:object_r:rootfs:s0
+/firmware(/.*)?        u:object_r:firmware_file:s0
 /hw_odm(/.*)?          u:object_r:rootfs:s0
 /mnt/hisee_fs(/.*)?    u:object_r:hisee_data_file:s0
 /modem_log(/.*)?       u:object_r:modem_log_file:s0
+/persist(/.*)?         u:object_r:persist_file:s0
 /preload(/.*)?         u:object_r:system_file:s0
 /sec_storage(/.*)?     u:object_r:teecd_data_file:s0
 /splash2(/.*)?         u:object_r:splash2_data_file:s0
+/tombstones            u:object_r:rootfs:s0
 /version(/.*)?         u:object_r:system_file:s0

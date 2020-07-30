@@ -3,6 +3,7 @@ type cust_data_file, coredomain_socket, core_data_file_type, data_file_type, fil
 type dmd_device, dev_type;
 type dubai_log_device, dev_type, mlstrustedobject;
 type exception_device, dev_type, mlstrustedobject;
+type firmware_file, fs_type, contextmount_type;
 type hisee_data_file, file_type;
 type irda_device, dev_type;
 type jank_device, dev_type, mlstrustedobject;
@@ -13,6 +14,7 @@ type modem_nv_file, file_type;
 type modem_secure_file, file_type;
 type mnt_modem_file, file_type;
 type oeminfo_nvm_device, dev_type;
+type persist_file, file_type;
 type pmom_device, dev_type;
 type recovery_device, dev_type;
 type splash2_block_device, dev_type;
