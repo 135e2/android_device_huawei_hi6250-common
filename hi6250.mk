@@ -80,10 +80,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
     $(LOCAL_PATH)/permissions/privapp-permissions_hi6250.xml:system/etc/permissions/privapp-permissions_hi6250.xml
 
-# Radio
-PRODUCT_PACKAGES += \
-    qti-telephony-common
-
 # Recovery
 PRODUCT_PACKAGES += \
     resize2fs_static
