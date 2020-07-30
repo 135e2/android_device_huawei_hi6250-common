@@ -259,7 +259,8 @@ public class HwRIL extends RIL {
                 lteRsrq,
                 lteRssnr,
                 lteCqi,
-                tdScdmaRscp);
+                tdScdmaRscp,
+                false /* gsmFlag - don't care; will be changed by SST */);
     }
 
 }
