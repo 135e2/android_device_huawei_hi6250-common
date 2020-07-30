@@ -84,9 +84,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     qti-telephony-common
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 # Recovery
 PRODUCT_PACKAGES += \
     resize2fs_static
